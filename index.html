@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Roboto Font -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/script.js" defer></script>
+    <title>QR Code Generator</title>
+</head>
+<body>
+
+    <div class="container">
+        <header id="qr-header">
+            <h1>Gerador de QR Code</h1>
+            <p>Insina uma URL ou texto para gerar o QR Code</p>
+        </header>
+
+        <div id="qr-form">
+            <input type="text" name="text" id="qr-input" placeholder="Insira a URL ou texto">
+            <button id="generate-btn">Gerar QR Code</button>
+        </div>
+
+        <div id="qr-code-img">
+            <!-- QR Code will be displayed here -->
+        </div>
+    </div>
+    
+</body>
+</html>
