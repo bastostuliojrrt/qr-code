@@ -39,13 +39,13 @@ Projeto simples e responsivo para gerar QR Codes a partir de uma URL ou texto di
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/bastostuliojrrt/qr-code.git
 ```
 
 2. Acesse a pasta do projeto:
 
 ```bash
-cd seu-repositorio
+cd qr-code
 ```
 
 3. Abra o arquivo `index.html` no navegador
@@ -68,7 +68,8 @@ cd seu-repositorio
 > Você pode adicionar aqui um print da aplicação:
 
 ```text
-![Preview do Projeto](./preview.png)
+<img width="452" height="542" alt="image" src="https://github.com/user-attachments/assets/a6ad7d1b-aed0-48de-8064-3300a08dfc00" />
+
 ```
 
 ---
